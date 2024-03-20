@@ -10,8 +10,6 @@ def home():
 
 @app.route('/health')
 def health():
-    # Health check logic here
-    # This is a simple example where we just return a JSON response indicating everything is okay.
     return jsonify({"status": "healthy", "message": "Application is running smoothly."})
 
 
